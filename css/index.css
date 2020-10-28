@@ -2,7 +2,7 @@ body,
 html {
     max-width: 600px;
     background-color: black !important;
-    font-family: Roboto, sans-serif;
+    font-family: Roboto !important;
 }
 
 .content {
@@ -14,7 +14,7 @@ html {
 }
 
 p {
-    font-family: Roboto;
+    font-family: Roboto !important;
     color: white;
     font-size: 0.7rem;
 }
@@ -45,7 +45,7 @@ p {
 }
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: Roboto;
     color: #333;
     font-weight: 300;
     line-height: 1.6;
@@ -57,7 +57,7 @@ body {
     top: 20%;
     display: grid;
     grid-template-columns: repeat(8, 8%);
-    grid-template-rows: repeat(8, 5vw);
+    grid-template-rows: repeat(7, 5vw);
     /*grid-gap: 0.7rem;*/
     column-gap: 0.8rem;
     justify-content: center;
