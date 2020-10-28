@@ -2,6 +2,7 @@ body,
 html {
     max-width: 600px;
     background-color: black !important;
+    font-family: Roboto, sans-serif;
 }
 
 .content {
@@ -44,7 +45,7 @@ p {
 }
 
 body {
-    font-family: "Nunito", sans-serif;
+    font-family: Roboto, sans-serif;
     color: #333;
     font-weight: 300;
     line-height: 1.6;
