@@ -1,9 +1,7 @@
-@import url(//fonts.googleapis.com/css?family=Roboto:300,500);
 body,
 html {
-    max-width: auto;
+    max-width: 600px;
     background-color: black !important;
-    font-family: Roboto !important;
 }
 
 .content {
@@ -15,13 +13,13 @@ html {
 }
 
 p {
-    font-family: Roboto !important;
+    font-family: Roboto;
     color: white;
     font-size: 0.7rem;
 }
 
 #font-kerning {
-    letter-spacing: 3px;
+    letter-spacing: 5px;
 }
 
 .name {
@@ -30,10 +28,10 @@ p {
     font-size: 0.7rem;
 }
 
-#font-pos {
+.font-pos {
     font-size: 0.7rem;
-    position: relative;
-    left: 99%;
+    position: absolute;
+    left: 51%;
     color: rgba(200, 200, 200, 0.747);
 }
 
