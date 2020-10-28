@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 body,
 html {
-    max-width: 600px;
+    min-width: 800px;
     background-color: black !important;
     font-family: Roboto !important;
 }
@@ -28,6 +28,16 @@ p {
     font-family: Roboto !important;
     color: rgba(200, 200, 200, 0.747);
     font-size: 0.7rem;
+    position: absolute;
+    left: 4%;
+}
+
+.span-1 {
+    padding: 0rem 2rem;
+}
+
+.span-2 {
+    padding: 0rem 3rem;
 }
 
 .font-pos {
@@ -150,4 +160,15 @@ body {
     grid-column-end: 7;
     grid-row-start: 5;
     grid-row-end: 7;
+}
+
+@media screen and (max-width: 800px) {
+    .font-pos,
+    .name,
+    .span-1 {
+        width: 50%;
+        font-size: 0.5rem;
+        letter-spacing: 2px;
+        /* The width is 100%, when the viewport is 800px or smaller */
+    }
 }
