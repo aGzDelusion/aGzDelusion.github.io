@@ -6,6 +6,12 @@ html {
     font-family: Roboto !important;
 }
 
+a {
+    color: rgba(200, 200, 200, 0.747) !important;
+    text-decoration: none !important;
+    background-color: transparent !important;
+}
+
 .content {
     flex: content;
     position: relative;
